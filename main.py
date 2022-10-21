@@ -177,3 +177,5 @@ def make_order(message):
         file.write(str(order))
     order_list.clear()
     bot.send_message(message.chat.id, text="your order is completed", reply_markup=None)
+
+print("helli, worid")
